@@ -1,4 +1,4 @@
-module.exports.NG_CONSTANTS = {
+const NG_CONSTANTS = {
   roleNames: {
     student: "Student",
     team: "NG Team",
@@ -29,3 +29,4 @@ module.exports.NG_CONSTANTS = {
     ],
   },
 };
+module.exports = NG_CONSTANTS
