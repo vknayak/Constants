@@ -1,0 +1,19 @@
+{
+  "name": "myconstants",
+  "version": "1.0.0",
+  "description": "return a list",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vknayak/constants.git"
+  },
+  "keywords": [
+    "myconstants"
+  ],
+  "author": "nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vknayak/constants/issues"
+  },
+  "homepage": "https://github.com/vknayak/constants#readme"
+}

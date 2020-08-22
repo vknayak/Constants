@@ -1,0 +1,1 @@
+module.exports.area = number =>  number*2
