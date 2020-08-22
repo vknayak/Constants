@@ -1,5 +1,5 @@
 {
-  "name": "myconstants",
+  "name": "kumar-nayak",
   "version": "1.0.0",
   "description": "return a list",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/vknayak/constants.git"
   },
   "keywords": [
-    "myconstants"
+    "kumar-nayak"
   ],
   "author": "nayak",
   "license": "ISC",
