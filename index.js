@@ -37,5 +37,9 @@ const NG_CONSTANTS = {
     "5": "Friday",
     "6":"Saturday",
   },
+  trackingEnabled:{
+    true:"yes",
+    false: "no",
+  }
 };
 module.exports = NG_CONSTANTS
