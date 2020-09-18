@@ -28,18 +28,40 @@ const NG_CONSTANTS = {
       "dumbeldore",
     ],
   },
-  trackingDays: {
-    "0": "Sunday",
-    "1": "Monday",
-    "2": "Tuesday",
-    "3": "Wednesday",
-    "4": "Thursday",
-    "5": "Friday",
-    "6":"Saturday",
+  progressTracking: {
+    parameters: {
+      type: {
+        boolean: {name: 'Boolean', key: 'boolean'},
+        range: {name: 'Integer Range', key: 'range'},
+      },
+    },
+    questions: {
+      type: {
+        text: 'Long Answer',
+      },
+    },
+    requestType: {
+      completed: 'Completed',
+      pending: 'Pending',
+    },
+    trackingFrequency: {
+      weekly: 'Weekly',
+      fortnightly: 'Fortnightly (Every 2 weeks)',
+      monthly: 'Monthly'
+    },
+    trackingDayOfWeek: {
+      0: 'Sunday',
+      1: 'Monday',
+      2: 'Tuesday',
+      3: 'Wednesday',
+      4: 'Thursday',
+      5: 'Friday',
+      6: 'Saturday'
+    },
+    trackingEnabled:{
+      "true":"yes",
+      "false": "no",
+    }
   },
-  trackingEnabled:{
-    true:"yes",
-    false: "no",
-  }
 };
 module.exports = NG_CONSTANTS
